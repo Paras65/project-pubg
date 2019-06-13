@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PUBG GAME | LOCAL TURNAMENT</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <span class="open-slide">
+        <a href="#" onclick="openSlideMenu()">
+          <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+          </svg>
+        </a>
+      </span>
+      <ul class="navbar-nav">
+        <li><a href="./pubg.html">home</a></li>
+        <li><a href="#registration-box">register</a></li>
+        <li><a href="#box-1">about</a></li>
+        <li><a href="#contact-box">contact</a></li>
+        <li><a href="#box-3">game rule</a></li>
+        <li><a href="#box-4">paymant</a></li>
+        <span
+          ><li><img src="./img/thNFSUSNZ8.jpg" alt="" class="img" /></li
+        ></span>
+      </ul>
+      <div id="slide-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="./pubg.html">home</a>
+        <a href="#registration-box">register</a>
+        <a href="#box-1">about</a>
+        <a href="#contact-box">contact</a>
+        <a href="#box-3">game rule</a>
+        <a href="#box-4">payment</a>
+      </div>
+    </nav>
+
+    <!--main area-->
+    <main id="main" class="grid">
+      <!--header-->
+      <header id="symphonia" class="grid">
+        <div class="bg-img"></div>
+
+        <div class="content-wrap">
+          <h2 class="content-title">
+            <span class="logo">PUBG GAME</span> Local Turnament
+          </h2>
+          <p>
+         if you are seaching for play pubg with local friends and win some specaial price then you right place.
+          </p>
+          <a href="" class="btn">Register now</a>
+        </div>
+      </header>
+
+      <!--boxes-->
+      <section class="boxes">
+        <div class="boxes">
+          <div id="box-1" class="box">
+            <i class="fas fa-gamepad fa-4x"></i>
+            <h3>About Pubg game</h3>
+            <p class="card-content">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure,
+              repellendus.PlayerUnknown’s Battlegrounds, a and ultimately
+              survive. The last player standing is declared the winner.
+            </p>
+          </div>
+          <div id="box-2" class="box">
+            <i class="fas fa-award fa-4x"></i>
+            <h3>Play & Win specail Price</h3>
+            <p class="card-content">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni,
+              delectus? ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div id="box-3" class="box">
+            <i class="fab fa-whmcs fa-4x"></i>
+            <h3>Game rules</h3>
+            <p class="card-content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+              voluptatem. ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div id="box-4" class="box">
+            <i class="far fa-credit-card fa-4x"></i>
+            <h3>Paymant Mode</h3>
+            <p class="card-content">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima,
+              iusto! ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--section-d-->
+      <section id="section-d" class="grid">
+        <div id="contact-box">
+          <h2 class="box-title">Contact</h2>
+          <p>
+            Lorem rlendus voluptatum repudiandae non qui dicta amet. Illum,
+            necessitatibus. Placeat, soluta. ipsum dolor sit amet consectetur
+            adipisicing elit. Aliquid culpa fuga, sed nostrum exercitationem
+            voluptate.
+          </p>
+          <br />
+          <p>
+            also contact us through <a href="#"> @Pubg Team Symphonia@2019</a>
+          </p>
+          <hr />
+        </div>
+        <div id="registration-box">
+          <h2 class="box-title">Registration</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            repellendus commodi assumenda at sunt quaerat odit nulla, error
+            doloribus quidem! ipsum dolor sit amet consectetur adipisicing elit.
+            Aliquid culpa fuga, sed nostrum exercitationem voluptate.
+          </p>
+          <a href="" class="btn" aligne="center">Register now</a>
+        </div>
+      </section>
+      <footer id="footer" class="grid">
+        <div class="footer">Copyright&copy: Symphoniya@2019</div>
+        <p>Designe By <a href="#"> @Pubg Team Symphonia@2019</a></p>
+        <p>All Rights Recived</p>
+      </footer>
+    </main>
+
+    <script>
+      function openSlideMenu() {
+        document.getElementById("slide-menu").style.width = "150px";
+        document.getElementById("main").style.marginLeft = "150px";
+      }
+      function closeSlideMenu() {
+        document.getElementById("slide-menu").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+  </body>
+</html>
